@@ -35,6 +35,14 @@
       "type": "XML",
       "id": "app"
     },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+
     "models": {
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
@@ -43,6 +51,10 @@
           "supportedLocales": [""],
           "fallbackLocale": ""
         }
+      },
+      "invoice": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/localInvoices.json"
       }
     }
   }
